@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+    <metadata minClientVersion="4.3">
+        <id>ReferencesRuler</id>
+        <title>Project references ruler</title>
+        <version>1.1.8</version>
+        <authors>Boško Stupar</authors>
+        <owners>bosko.stupar, DigitecGalaxus</owners>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/DigitecGalaxus/ProjectsRuler</projectUrl>
+        <icon>images\logo.png</icon>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>Governance library for writing unit tests to check for forbidden .csproj references.</summary>
+        <description>Governance library for writing unit tests to check for forbidden .csproj references.
+        It allows the developer to write declarative rules to steer the architecture within the same application.
+        It relies on having the source code around when running unit tests.</description>
+        <language>en-US</language>
+        <repository type="git" url="https://github.com/DigitecGalaxus/ProjectsRuler.git" branch="master"/>
+        <tags>governance architecture dotnet dotnetcore unittest rules references digitec galaxus digitecgalaxus</tags>
+        <copyright>2019-2020 Digitec Galaxus AG</copyright>
+        <releaseNotes>Use newer (correct) logo</releaseNotes>
+        <dependencies>
+            <group targetFramework=".netstandard2.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="ProjectReferencesRuler\bin\Release\netstandard2.0\*.dll" target="lib/netstandard2.0" />
+        <file src="README.md" target="" />
+        <file src="logo.png" target="images\logo.png"/>
+    </files>
+</package>
